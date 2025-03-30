@@ -1,0 +1,49 @@
+.container {
+
+}
+.contact-info p {
+
+}
+
+
+
+.homepage-main {
+    padding: 3rem;
+}
+
+.homepage-main .line {
+    border-right: 3px solid #d9d9d9;
+}
+
+.home-cv-content{
+
+}
+.home-cv-content h3{
+    margin-top: 5rem;
+}
+
+.page-title-wrap1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*手机*/
+@media screen and (max-width:767px) {
+    .box {
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .homepage-main {
+        padding: 1rem;
+    }
+
+    .homepage-main .line {
+        border-right: none;
+        padding-bottom: 3rem;
+    }
+    .home-cv-content .row-sep, .homepage-main .name-block {
+        border-top: 3px solid #d9d9d9;
+    }
+}
